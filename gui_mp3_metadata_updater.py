@@ -7,7 +7,7 @@ from tkinter import Tk, Label, Button, filedialog, Text, Scrollbar, END
 # Define static metadata
 PRESET_METADATA = {
     "artist": "Stop'n'Time",  # Static contributing artist
-    "genre": "Jazz",  # Static genre
+    "genre": "Jazz",  # Static genre 2
 }
 
 
