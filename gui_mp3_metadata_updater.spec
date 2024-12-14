@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['gui_mp3_metadata_updater.py'],
+    ['gui_mp3_m4a_metadata_updater.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='gui_mp3_metadata_updater',
+    name='gui_mp3_m4a_metadata_updater',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

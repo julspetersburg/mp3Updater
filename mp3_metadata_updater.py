@@ -73,7 +73,7 @@ def bulk_update_metadata(directory):
     Process all MP3 files in the given directory.
     """
     for file in os.listdir(directory):
-        if file.endswith(".mp3"):
+        if file.endswith(".mp3") or file.endswith(".m4a"):
             file_path = os.path.join(directory, file)
             metadata = extract_metadata_from_filename(file)
             if metadata:
